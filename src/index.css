@@ -10,6 +10,19 @@ body {
   src: url("../public/Audiowide.ttf");
 }
 
+@font-face {
+  font-family: nusar;
+  src: url("../public/Nusar.ttf");
+}
 .audio{
   font-family: audio, sans-serif;
+}
+
+.nusar{
+  font-family: nusar, sans-serif;
+}
+
+
+.wrapper{
+  display: flex;
 }

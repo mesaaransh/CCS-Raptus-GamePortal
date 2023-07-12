@@ -17,7 +17,7 @@ export default function Login() {
         <div className="caption">
           <img src={ccslogo} alt="CCS" width={'100px'} />
           <h6 className='mt-1 tag'>PRESENTS</h6>
-          <h1 className='title mt-2'>RAPTUS</h1>
+          <h1 className='title mt-2 nusar'>RAPTUS</h1>
         </div>
       </div>
       <div className="login">
@@ -34,7 +34,7 @@ export default function Login() {
               <input type="checkbox" name="" className='cb'/>
             </div>
             <input type="text" placeholder='HIDDEN CODE' />
-            <button type="submit" className='w-100 mt-5'>SUBMIT</button>
+            <button type="submit" className='w-100 mt-5'> <a href="/rulebook">SUBMIT</a></button>
           </form>
 
         </div>
